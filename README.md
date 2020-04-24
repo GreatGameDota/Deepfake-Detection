@@ -51,3 +51,9 @@ I'm so excited to get my second ever competition medal and I'm even more excited
 My previous competition: [Bengali Character Classification](https://github.com/GreatGameDota/Bengali-Character-Classification)
 
 My next competition: [placeholder]
+
+## Some helpful Links
+
+My baseline kernal: https://www.kaggle.com/greatgamedota/xception-classifier-w-ffhq-training-lb-537
+My training kernal: https://www.kaggle.com/greatgamedota/69th-place-solution-training
+My submission kernal: https://www.kaggle.com/greatgamedota/69th-place-solution-mobilenet-inference/
