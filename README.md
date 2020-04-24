@@ -30,6 +30,8 @@ Input was one of the most difficult challenges in the competition due to the siz
 
 I just wrote out my entire journey dealing with image datasets and realized it was way to long. So long story short I made my own image dataset which can be found [here](https://www.kaggle.com/c/deepfake-detection-challenge/discussion/134420)!
 
+In the dataset I pulled images of people's faces from 10 frames from every video. Then I would randomly sample one of those images from a specific video and train the model based on video ids.
+
 For augmentation, some models I had HorizontalFlip along with DownScale and JpegCompression (as suggested in a Kaggle forum) and for other models I just had HorizontalFlip.
 
 ## Training
