@@ -54,6 +54,6 @@ My next competition: [placeholder]
 
 ## Some helpful Links
 
-My baseline kernal: https://www.kaggle.com/greatgamedota/xception-classifier-w-ffhq-training-lb-537
-My training kernal: https://www.kaggle.com/greatgamedota/69th-place-solution-training
-My submission kernal: https://www.kaggle.com/greatgamedota/69th-place-solution-mobilenet-inference/
+My baseline kernal: https://www.kaggle.com/greatgamedota/xception-classifier-w-ffhq-training-lb-537  
+My training kernal: https://www.kaggle.com/greatgamedota/69th-place-solution-training  
+My submission kernal: https://www.kaggle.com/greatgamedota/69th-place-solution-mobilenet-inference/  
