@@ -44,6 +44,12 @@ For validation I did a simple folder-wise split validation where folders 0-40 we
 
 ![](https://github.com/GreatGameDota/Deepfake-Detection/blob/master/assets/scores.png)
 
+## What didn't work
+
+- LRCN (CNN + RNN)
+- External data
+- Post-processing/Clipping
+
 ## Final Thoughts
 
 This was another great Kaggle competition! I'm so happy I achieved such a great performance on a competition that a lot of people just skipped due to the amount of data. I'm also surprised I performed so well with only Kaggle kernals!
