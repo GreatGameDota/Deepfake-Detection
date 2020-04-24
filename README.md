@@ -12,7 +12,7 @@ One very unique thing about this competition was the large amount of data which 
 
 ## Overview
 
-My final solution was an ensemble of 7 models: 2x Xception and 5x Efficentnet-B1. All models are pretrained with similar heads. They were all trained in Kaggle kernals using a version of a group of Kaggle datasets made by myself and [Hieu Phung](https://www.kaggle.com/phunghieu) (see below). Pretrained Mobilenet was used as face extractor, special thanks to [Shangqiu Li](https://www.kaggle.com/unkownhihi) for sharing this method! To balance the data while training I used a simple undersampling technique. All models were trained slightly differently (training dataset version, hidden size, LR, augmentation, etc.).
+My final solution was an ensemble of 7 models: 2x Xception and 5x Efficentnet-B1. All models are pretrained with similar heads. They were all trained in Kaggle kernals using a version of a group of Kaggle datasets made by myself and [Hieu Phung](https://www.kaggle.com/phunghieu) (see below). [Pretrained Mobilenet](https://www.kaggle.com/unkownhihi/mobilenet-face-extractor-helper-code) was used as face extractor (special thanks to [Shangqiu Li](https://www.kaggle.com/unkownhihi) and team for sharing this method!). To balance the data while training I used a simple undersampling technique and I randomly sample 1 frame from every video while training. All models were trained slightly differently (training dataset version, hidden size, LR, augmentation, etc.).
 
 ## Model
 
@@ -63,5 +63,5 @@ My next competition: [placeholder]
 ## Some helpful Links
 
 My baseline kernal: https://www.kaggle.com/greatgamedota/xception-classifier-w-ffhq-training-lb-537  
-My training kernal: https://www.kaggle.com/greatgamedota/69th-place-solution-training  
 My submission kernal: https://www.kaggle.com/greatgamedota/69th-place-solution-mobilenet-inference/  
+Image dataset kernal: https://www.kaggle.com/greatgamedota/deepfake-detection-full-data  
