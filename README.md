@@ -2,7 +2,7 @@
 
 My 69th place solution and writeup for the [Deepfake Detection Challenge](https://www.kaggle.com/c/deepfake-detection-challenge) hosted on Kaggle by AWS, Facebook, Microsoft, the Partnership on AI’s Media Integrity Steering Committee and others.
 
-<img href='https://github.com/GreatGameDota/Deepfake-Detection/blob/master/assets/logo.jpg?raw=true' alt='logo' title='logo' height=500 width=500>
+<img href='https://github.com/GreatGameDota/Deepfake-Detection/blob/master/assets/logo.jpg' alt='logo' title='logo' height=500 width=500>
 
 ## Initial Thoughts
 
