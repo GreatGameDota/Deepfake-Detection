@@ -30,7 +30,7 @@ Input was one of the most difficult challenges in the competition due to the siz
 
 I just wrote out my entire journey dealing with image datasets and realized it was way to long. So long story short I made my own image dataset which can be found [here](https://www.kaggle.com/c/deepfake-detection-challenge/discussion/134420)!
 
-In the dataset I pulled images of people's faces from 10 frames from every video. Then I would randomly sample one of those images from a specific video and train the model based on video ids.
+In the dataset I pulled images of people's faces from 10 frames from every video. Then I would randomly sample one of those images from a specific video and train the model based on video ids. All images had a resolution of 150pxx150px.
 
 For augmentation, some models I had HorizontalFlip along with DownScale and JpegCompression (as suggested in a Kaggle forum) and for other models I just had HorizontalFlip.
 
@@ -39,6 +39,10 @@ For augmentation, some models I had HorizontalFlip along with DownScale and Jpeg
 Training was simple for this competition and the only problems were the unbalanced data and having an accurate validation set. All models were trained with Adam optimizer with low initial LR, ReduceLROnPlateau, and for 20 epochs. Best model checkpoint was saved based on LogLoss validation. All models were trained in Kaggle kernals.
 
 For validation I did a simple folder-wise split validation where folders 0-40 were used to train and folders 41-49 as validation. (Some of the final models used 40-49 as validation)
+
+## Ensembling
+
+I ensembled all the models using the geometric mean of their logits.
 
 ## Final Submission
 
