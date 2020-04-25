@@ -40,9 +40,9 @@ Training was simple for this competition and the only problems were the unbalanc
 
 For validation I did a simple folder-wise split validation where folders 0-40 were used to train and folders 41-49 as validation. (Some of the final models used 40-49 as validation)
 
-## Ensembling
+## Ensembling/Blending
 
-I ensembled all the models using the geometric mean of their logits.
+I ensembled all the models using the geometric mean of their probabilities.
 
 ## Final Submission
 
