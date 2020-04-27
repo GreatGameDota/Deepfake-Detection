@@ -1,6 +1,6 @@
 # Deepfake Detection Challenge
 
-My 69th place solution and writeup for the [Deepfake Detection Challenge](https://www.kaggle.com/c/deepfake-detection-challenge) hosted on Kaggle by AWS, Facebook, Microsoft, the Partnership on AI’s Media Integrity Steering Committee and others.
+My 67th place solution and writeup for the [Deepfake Detection Challenge](https://www.kaggle.com/c/deepfake-detection-challenge) hosted on Kaggle by AWS, Facebook, Microsoft, the Partnership on AI’s Media Integrity Steering Committee and others.
 
 ![](https://github.com/GreatGameDota/Deepfake-Detection/blob/master/assets/logo.jpg)
 
