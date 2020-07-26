@@ -62,7 +62,7 @@ I'm so excited to get my second ever competition medal and I'm even more excited
 
 My previous competition: [Bengali Character Classification](https://github.com/GreatGameDota/Bengali-Character-Classification)
 
-My next competition: [placeholder]
+My next competition: [PANDA Challenge](https://github.com/GreatGameDota/PANDA-Challenge-Solution)
 
 ## Some helpful Links
 
