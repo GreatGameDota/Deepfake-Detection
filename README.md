@@ -2,7 +2,7 @@
 
 My 67th place solution and writeup for the [Deepfake Detection Challenge](https://www.kaggle.com/c/deepfake-detection-challenge) hosted on Kaggle by AWS, Facebook, Microsoft, the Partnership on AI’s Media Integrity Steering Committee and others.
 
-![](https://github.com/GreatGameDota/Deepfake-Detection/blob/master/assets/logo.jpg)
+<img src='https://github.com/GreatGameDota/Deepfake-Detection/blob/master/assets/logo.jpg?raw=true'>
 
 ## Initial Thoughts
 
@@ -16,7 +16,7 @@ My final solution was an ensemble of 7 models: 2x Xception and 5x Efficentnet-B1
 
 ## Model
 
-![](https://github.com/GreatGameDota/Deepfake-Detection/blob/master/assets/model.png)
+<img src='https://github.com/GreatGameDota/Deepfake-Detection/blob/master/assets/model.png?raw=true'>
 
 All models had the above architecture except for one that had a hidden layer size of 256 instead of 512 (See submission.ipynb).
 
@@ -46,7 +46,7 @@ I ensembled all the models using the geometric mean of their probabilities.
 
 ## Final Submission
 
-![](https://github.com/GreatGameDota/Deepfake-Detection/blob/master/assets/scores.png)
+<img src='https://github.com/GreatGameDota/Deepfake-Detection/blob/master/assets/scores.png?raw=true'>
 
 ## What didn't work
 
