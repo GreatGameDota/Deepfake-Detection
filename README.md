@@ -16,7 +16,7 @@ My final solution was an ensemble of 7 models: 2x Xception and 5x Efficentnet-B1
 
 ## Model
 
-<img src='https://github.com/GreatGameDota/Deepfake-Detection/blob/master/assets/model.png?raw=true'>
+<img src='https://github.com/GreatGameDota/Deepfake-Detection/blob/master/assets/model.png?raw=true' width=800 height=350>
 
 All models had the above architecture except for one that had a hidden layer size of 256 instead of 512 (See submission.ipynb).
 
